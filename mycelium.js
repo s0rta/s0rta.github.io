@@ -38,6 +38,7 @@ function myceliate() {
       if (isSpore(spores[i])) {
         // console.log("BINGO");
         loadStrings(spores[i], mingle);
+        loadStrings(`https://${hyphae[i].split("/")[2]}/spores.txt`, mingle);
       }
     }
     iteration++;
@@ -47,6 +48,7 @@ function myceliate() {
       if (isSpore(hyphae[i])) {
         // console.log("BINGO");
         loadStrings(hyphae[i], mingle);
+        loadStrings(`https://${hyphae[i].split("/")[2]}/spores.txt`, mingle);
       }
     }
     iteration++;
@@ -84,7 +86,7 @@ function mingle(txt) {
 function isWebpage(www) {
   if (www.substring(0, 4) == "http") {
     // console.log(www + " is a webpage");
-    console.log(hasSpores(www));
+    // console.log(hasSpores(www));
     return true;
   } else {
     // console.log(www + " is NOT a webpage");
