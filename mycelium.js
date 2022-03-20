@@ -84,6 +84,7 @@ function mingle(txt) {
 function isWebpage(www) {
   if (www.substring(0, 4) == "http") {
     // console.log(www + " is a webpage");
+    console.log(hasSpores(www));
     return true;
   } else {
     // console.log(www + " is NOT a webpage");
@@ -99,4 +100,14 @@ function isSpore(www) {
     // console.log(www + " is NOT a webpage");
     return false;
   }
+}
+
+function hasSpores(www) {
+  const sporesUrl = `${www.split("/")[2]}/spores.txt`;
+
+  fetch("http://" + sporesUrl).then((response) => {
+    if (response.ok) {
+      return true;
+    }
+  });
 }
