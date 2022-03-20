@@ -38,7 +38,7 @@ function myceliate() {
       if (isSpore(spores[i])) {
         // console.log("BINGO");
         loadStrings(spores[i], mingle);
-        loadStrings(`https://${spores[i].split("/")[2]}/spores.txt`, mingle);
+        // loadStrings(`https://${spores[i].split("/")[2]}/spores.txt`, mingle);
       }
     }
     iteration++;
@@ -48,7 +48,7 @@ function myceliate() {
       if (isSpore(hyphae[i])) {
         // console.log("BINGO");
         loadStrings(hyphae[i], mingle);
-        loadStrings(`https://${hyphae[i].split("/")[2]}/spores.txt`, mingle);
+        // loadStrings(`https://${hyphae[i].split("/")[2]}/spores.txt`, mingle);
       }
     }
     iteration++;
