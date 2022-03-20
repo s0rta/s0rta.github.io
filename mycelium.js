@@ -105,7 +105,7 @@ function isSpore(www) {
 function hasSpores(www) {
   const sporesUrl = `${www.split("/")[2]}/spores.txt`;
 
-  fetch("http://" + sporesUrl).then((response) => {
+  fetch("https://" + sporesUrl).then((response) => {
     if (response.ok) {
       return true;
     }
