@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <style>
+      @font-face {
+        font-family: Tiltortion;
+        src: url("fonts/Tiltortion.otf");
+      }
 
-<body>
+      a {
+        color: aliceblue;
+      }
 
-  <p>Thank you for visiting yet.earth.</p>
-  <p>This site is a hovel of sorts, home to junk, trash, and other things that are not meant to be seen. Reach out if ya
-    wanna talk about tech, art, bees, bread, foss, fashion, hairbrained schemes, weird books, &c.</p>
-  <h2>
-    <span>Said Junk</span>
-    <span>0002</span>
-  </h2>
-  <p>Date: E021</p>
-  <hr />
-  <div>
-    <div>Focus: </div>
-    <p>Getting to another country and working on a farm of sorts, learning from the earth</p>
-    <div>Work: </div>
-    <p>Wox Campains LLC. - Web (React), Ops (AWS/Django), Mobile (React Native)</p>
-  </div>
-  <div>
-    <div>
-      Salvage:
-      <p>
-
-
-
-</body>
-
+      a.here {
+        color: powderblue;
+      }
+      p {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        width: calc(100% - 22px);
+        filter: blur(0.8px);
+      }
+      h1 {
+        font-family: Tiltortion;
+        font-size: 100px;
+        margin: 22px;
+        overflow-wrap: break-word;
+        width: calc(100% - 22px);
+        text-align: right;
+        line-height: 90px;
+        filter: blur(0.8px);
+      }
+      body {
+        background-image: url("images/dithered-image.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        backdrop-filter: blur(1px);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>yet.earth!</h1>
+    <p>
+      A CONSERVATORY TENDED TO BY JT WRIGHT —
+      <a class="here" href="#">HOME</a> <a href="about.html">ABOUT</a>
+    </p>
+  </body>
 </html>
