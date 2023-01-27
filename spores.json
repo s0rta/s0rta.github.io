@@ -1,10 +1,5 @@
 {
-  "spores": [
-    "https://fee.cool",
-    "https://actualsource.org",
-    "https://unpossiblejourneys.com/",
-    "https://www.justus.ws"
-  ],
+  "spores": ["https://fee.cool"],
   "hyphae": ["https://yet.earth/fee-temp.json"],
   "id": "Yet Another Link List",
   "location": "https://yet.earth/spores.json"
