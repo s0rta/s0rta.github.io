@@ -1,6 +1,10 @@
 {
-  "spores": ["https://fee.cool"],
-  "hyphae": ["https://yet.earth/fee-temp.json"],
+  "spores": [
+    "https://fee.cool",
+    "https://infrequently.org",
+    "https://mssv.net"
+  ],
+  "hyphae": ["https://fee.cool/spores.json"],
   "id": "Yet Another Link List",
   "location": "https://yet.earth/spores.json"
 }
